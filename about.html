@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>SuperHero Project</title>
+
+  <style>
+     .container{
+      padding-bottom: 18vh;
+    }
+
+    .btnjs {
+      width: 20vw;
+    }
+
+    .counter {
+      margin: 0.2em;
+    }
+
+    .herocard {
+      padding: 0.2rem;
+      margin-left: 2vw;
+      height: 105vh;
+    }
+
+    .card-body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .card-inner {
+
+      padding: 0.2rem;
+      text-align: left;
+    }
+
+    .stats {
+      width: 50%;
+    }
+
+    #popupwrapper {
+      background-color: rgb(70, 70, 70, .7);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      z-index: 9001;
+    }
+
+    .popup {
+      text-align: left;
+      width: 100%;
+      width: 45vw;
+      margin: 10% auto;
+      padding: 20px;
+      background-color: rgb(90, 152, 233);
+      position: relative;
+    }
+    .popupContent{
+      color: rgb(218, 216, 216);
+    }
+
+    .popupClose {
+      position: absolute;
+      width: 2.7vw;
+      border:2px solid white;
+      top: 5px;
+      right: 8px;
+      cursor: pointer;
+      color: white;
+      display:flex;
+      justify-content: center;
+    }
+    
+
+    .strongestDiv{
+     display: flex;
+      justify-content: center;
+    }
+
+    .brother+div{
+      border-top: 0.5rem solid yellow;
+    }
+
+  </style>
+  <script src="./scripts/app.js" type="module"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-danger shadow-sm">
+      <a class="navbar-brand text-warning" href="./index.html">SuperHero Project</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="jumbotron bg-info">
+      <h1 class="display-4 text-white text-center">Hello</h1>
+      <br>
+      <p class="lead text-white text-center">As mentioned on the main page, this project is about using rest api's and promises/async functions. It is
+        meant to be viewed on a computer and is
+        not responsive, as I didn't want to spend too long on design and layout. Requests to api are wrapped in a timeout function in order to better simulate the asynchronicity.
+      </p>
+      <p class="lead text-white text-center">
+        The purpose of this project was to get comfortable with both of the promise syntaxs (.then and async/await) and to practice the SOLID principles (where applicable). If you look at the index.html file you will see a fourth input in a comment. If you "un-comment" it you will see the site remains functional even with an additional input. The design may break a little (again, not the point of this project), but the code behind it remains functional.
+      </p>
+      <p class="lead text-white text-center">
+      link to source code here.
+      </p>
+     
+      
+    </div>
+
+    
+    
+     
+
+  </div>
+   
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

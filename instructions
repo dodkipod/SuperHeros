@@ -1,0 +1,11 @@
+1. Create page with 3 inputs for open text.
+2. Create these buttons:
+  #.1 show at once all three: only display 3 heros at once. not one at a time. not if one of them failed.
+  #.2 show at once, even if one fails.
+  #.3 show whats ready: show the heros as soon as they are ready. even if one fails. 
+3. Display 2 counters showing successful/failed renders.
+  #.1 will show what happens...
+  #.2 will show what happens...
+  #.3 will show 1/3 successful, then 2/3 successful... (updated live).
+4. Make a button that will decide and show who is the strongest, based on stats.
+5. wrap requests to api with a timeout of atleast 1 second.
