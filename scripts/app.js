@@ -54,14 +54,6 @@ async function succeedOrFail() {
       updateFetched(await fetching.fetchSingleHero(inputValues[i]))
     }
     
-    // why the fuck does this^ work, but not thisV ?????
-
-    // inputValues.forEach((value)=>{
-    //   let fHero = await fetching.fetchSingleHero(value);
-    //   updateFetched(fHero);
-      
-    // });
-    
   fetched.forEach((hero)=>{
     let mHero = updatemodledHeros(hero);
     let rendered = rendering.renderSingleSuperhero(mHero);
